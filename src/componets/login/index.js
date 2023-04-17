@@ -25,8 +25,8 @@ function Login() {
     const typeLogin = "facebook";
     const callApi = await axios
       .post(
-        // "http://localhost:5000/api/users/register",
-        "http://localhost:5000/api/users/login",
+        // "https://ecom-z3we.onrender.com/api/users/register",
+        "https://ecom-z3we.onrender.com/api/users/login",
         {
           accessToken,
           typeLogin,
